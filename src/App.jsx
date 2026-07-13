@@ -22,7 +22,7 @@ function App() {
             Download CV <i className="ri-download-line ri-lg"></i>
           </a>
           <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">
-            Check Projects <i className="ri-arrow-down-line ri-lg"></i>
+            Projects <i className="ri-arrow-down-line ri-lg"></i>
           </a>
           
         </div>
@@ -37,10 +37,12 @@ function App() {
         <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10
         sm:hidden" loading="lazy"/>
         <p className="text-base/loose mb-10 text-justify">
-          I'm a fresh graduate in Statistics from Diponegoro University with a GPA of 3.83, and a genuine passion for making sense of data. My journey in the data world spans across analytics, visualization, forecasting, and machine learning — from building automated KPI dashboards for a supply chain team, to applying SARIMA time-series models at a government agency, to achieving 98.3% accuracy in a classification project using XGBoost.
-Beyond the technical side, I'm someone who leads with curiosity and communicates with clarity. I've served as a teaching assistant, led an 11-member administrative team, consulted on research projects, and volunteered as a Statistics Agent for BPS Central Java — because I believe data only creates impact when it's understood by people, not just machines.
-I'm currently sharpening my skills through a Data Science bootcamp and actively building projects that reflect real-world business problems. Whether it's a dashboard, a predictive model, or a data-driven insight — I'm here for it.
-Feel free to explore my work, and don't hesitate to reach out. Let's connect!
+          I am Statistics graduate from Diponegoro University with a GPA of 3.83, and I have a genuine interest in data analysis. My journey in the world of data spans the fields of analytics, visualisation, forecasting and machine learning — ranging from building automated KPI dashboards for supply chain teams, implementing SARIMA time series models at a government agency, to achieving 98.3 per cent accuracy in a classification project using XGBoost.
+
+Beyond the technical aspects, I am someone who is always driven by curiosity and a desire to communicate clearly. I have worked as a teaching assistant, led an 11-strong administrative team, acted as a consultant on research projects, and volunteered as a Statistics Officer at the Central Java Central Statistics Agency (BPS) — because I believe that data only has an impact if it is understood by people, not just machines.
+
+I am currently honing my skills by actively developing projects that address real-world business challenges, whether they be dashboards, predictive models or data-driven insights.
+Please take a look at my work, and feel free to get in touch. Let’s connect!
         </p>
         <div className="flex items-center justify-between">
           <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:block 
@@ -56,7 +58,7 @@ Feel free to explore my work, and don't hesitate to reach out. Let's connect!
             <h1 className="text-4xl mb-1">
               3 <span className="text-violet-500">+</span>
             </h1>
-            <p>Month of Experience</p>
+            <p>Months of Experience</p>
             </div>
           </div>
         </div>
@@ -64,11 +66,11 @@ Feel free to explore my work, and don't hesitate to reach out. Let's connect!
       <div className="tools mt-32 px-4">
         <h1 className="text-4xl/snung font-bold mb-4" data-aos="fade-up" 
         data-aos-duration="1000" data-aos-once="true">
-        Tools Use
+        Tools Uses
         </h1>
         <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 wfull text-base/loose opacity-50"
         data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
-        Here are some tools I commonly use for website development and design.
+        Here are some tools I commonly use for Data Analyst, Dashboarding and Design.
         </p>
         <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-col-1 gap-4">
           {listTools.map(tool => (
