@@ -18,11 +18,11 @@ function App() {
           and machine learning, and I'm thrilled to have you here!.  
         </p>
         <div className="flex item-center sm:gap-4 gap-2">
-          <a href="#" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">
+          <a href="https://drive.google.com/drive/folders/1Fw6SsEotA8VqkG5RQIip2rxXfZ3jMchb" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">
             Download CV <i className="ri-download-line ri-lg"></i>
           </a>
           <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">
-            Lihat Proyek <i className="ri-arrow-down-line ri-lg"></i>
+            Check Projects <i className="ri-arrow-down-line ri-lg"></i>
           </a>
           
         </div>
@@ -48,15 +48,15 @@ Feel free to explore my work, and don't hesitate to reach out. Let's connect!
           <div className="flex itemns-center gap-6">
             <div>
               <h1 className="text-4xl mb-1">
-                45 <span className="text-violet-500">+</span>
+                5 <span className="text-violet-500">+</span>
               </h1>
-              <p>Proyek Selesai</p>
+              <p>Projects Completed</p>
             </div>
             <div>
             <h1 className="text-4xl mb-1">
-              46 <span className="text-violet-500">+</span>
+              1 <span className="text-violet-500">+</span>
             </h1>
-            <p>Tahun Pengalaman</p>
+            <p>Month of Experience</p>
             </div>
           </div>
         </div>
@@ -64,11 +64,11 @@ Feel free to explore my work, and don't hesitate to reach out. Let's connect!
       <div className="tools mt-32 px-4">
         <h1 className="text-4xl/snung font-bold mb-4" data-aos="fade-up" 
         data-aos-duration="1000" data-aos-once="true">
-        Tools yang dipakai
+        Tools Use
         </h1>
         <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 wfull text-base/loose opacity-50"
         data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
-        Berikut ini beberapa tools yang biasa saya pakai untuk pembuatan website ataupun design. 
+        Here are some tools I commonly use for website development and design.
         </p>
         <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-col-1 gap-4">
           {listTools.map(tool => (
@@ -94,12 +94,12 @@ Feel free to explore my work, and don't hesitate to reach out. Let's connect!
     <div className="proyek mt-32 py-10" id="proyek">
       <h1 className="text-center text-4xl font-bold mb-2" 
       data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-        Proyek
+        Projects
       </h1>
       <p className="text-base/loose text-center opacity-50"
       data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"
       data-aos-once="true">
-        Berikut beberapa proyek yang pernah saya buat
+        Here are some projects I have worked on
       </p>
       <div className="proyek.box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
         {listProyek.map((proyek)=>(
@@ -117,7 +117,7 @@ Feel free to explore my work, and don't hesitate to reach out. Let's connect!
               </div>
               <div className="mt-8 text-center">
                 <a href={proyek.link} className="bg-violet-700 p-3 rounded-lg block 
-                border-zinc-600 hover:bg-violet-600">Lihat Website</a>
+                border-zinc-600 hover:bg-violet-600">View Project</a>
               </div>
             </div>
           </div>
@@ -134,33 +134,33 @@ Feel free to explore my work, and don't hesitate to reach out. Let's connect!
     <div className="kontak mt-32 dm:p-10 p-0" id="kontak">
       <h1 className="text-4xl mb-2 font-bold text-center"
       data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-        Kontak
+        Contact
       </h1>
       <p className="text-base/loose text-center mb-10 opacity-50"
       data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
-        Mari terhubung dengan saya. 
+        Let's connect with me. 
       </p>
       <form action="https://formsubmit.co/lutfiatulngazizah@gmail.com" method="POST" className="bg-zinc-800 p-10 w-fit mx-auto rounded-md"
       autoComplete="off" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">
         <div className="flex flex-col gap-6">
           <div className="flex flex-col gap-2">
-            <label className="font-semibold">Nama Lengkap</label>
-            <input type="text" name="nama" placeholder="Masukkan Nama..." className="border
+            <label className="font-semibold">Full Name</label>
+            <input type="text" name="nama" placeholder="Enter your name..." className="border
             border-zinc-500 p-2 rounded-md" required />
           </div>
           <div className="flex flex-col gap-2">
             <label className="font-semibold">Email</label>
-            <input type="email" name="email" placeholder="Masukkan Email..." className="border
+            <input type="email" name="email" placeholder="Enter your email..." className="border
             border-zinc-500 p-2 rounded-md" required />
           </div>
           <div className="flex flex-col gap-2">
-            <label className="font-semibold" htmlFor="pesan">Pesan</label>
-            <textarea name="pesan" id="pesan" cols="45" rows="7" placeholder="Pesan...." className="border
+            <label className="font-semibold" htmlFor="pesan">Message</label>
+            <textarea name="pesan" id="pesan" cols="45" rows="7" placeholder="Enter your message..." className="border
             border-zinc-500 p-2 rounded-md" required></textarea>
           </div>
           <div className="text-center">
             <button type="submit" className="bg-violet-700 p-3 rounded-lg w-full
-            cursor-pointer border-zinc-600 hover:bg-violet-600">Kirim Pesan</button>
+            cursor-pointer border-zinc-600 hover:bg-violet-600">Send Message</button>
           </div>
         </div>
       </form>
