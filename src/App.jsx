@@ -54,7 +54,7 @@ Feel free to explore my work, and don't hesitate to reach out. Let's connect!
             </div>
             <div>
             <h1 className="text-4xl mb-1">
-              1 <span className="text-violet-500">+</span>
+              3 <span className="text-violet-500">+</span>
             </h1>
             <p>Month of Experience</p>
             </div>
