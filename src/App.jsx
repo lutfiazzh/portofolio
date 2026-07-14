@@ -12,7 +12,7 @@ function App() {
           <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy"/>
           <q>Turning automatically integrated data into meaningful insights.📊</q>
         </div>
-        <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Lutfiatul Ngazizah</h1>
+        <h1 className="text-5xl/tight font-bold mb-6">Hi, I am Lutfiatul Ngazizah</h1>
         <p className="text-base/loose mb-6 opacity-50">
           Hi, I'm a Statistics graduate with a passion for data analysis, data visualization, 
           and machine learning, and I'm thrilled to have you here!.  
